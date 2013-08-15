@@ -13,6 +13,7 @@ gem 'shotgun'
 
 gem 'activesupport'
 gem 'activerecord'
+gem 'json'
 
 gem 'rake'
 
