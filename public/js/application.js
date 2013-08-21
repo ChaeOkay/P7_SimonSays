@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $.ajax({
       type: 'POST',
-      url: '/color',
+      url: '/color'
 
     }).done(function(response){
      $("ul li").eq(response.cell).css("background-color", response.color);
